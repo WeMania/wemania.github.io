@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rock Paper Scissors</title>
+	<link rel="stylesheet" type="text/css" href="css/rock_paper_scissors.css">
+	<link rel="shortcut icon" href="main_pngs/icon.png">
+</head>
+<body>
+	<div class="up_bar">
+		<div>
+		</div>
+
+		<div class="reset_button">
+			<img src="game_pngs/reset.png" class="reset_button_image" id="reset">
+		</div>
+
+		<div class="return_button">
+			<img src="game_pngs/return.png" class="return_button_image" id="return">
+		</div>				
+	</div>
+
+	<div class="fullscreen">
+		<div class="game_box">
+			<div class="game_text">
+				<p class="rps_text">Rock Paper Scissors</p>
+				<p class="choose_move_text">Choose Move</p>
+			</div>
+
+			<div class="images">
+				<img src="game_pngs/rock.png" class="rps_images" id="rock">	
+				<img src="game_pngs/paper.png" class="rps_images" id="paper">
+				<img src="game_pngs/scissors.png" class="rps_images" id="scissors">
+			</div>
+
+			<div class="made_moves">
+				<p class="player_move_text">Player Move > </p>
+
+				<div class="player_move" id="player_move"></div>
+
+				<p class="vs">VS</p>
+
+				<div class="computer_move" id="computer_move"></div>
+
+				<p class="computer_move_text">< Computer Move</p>
+			</div>
+
+			<div class="stats">
+				<div class="wins">
+					<p id="wins">Wins: 0</p>
+				</div>
+
+				<div class="losses">
+					<p id="losses">losses: 0</p>
+				</div>
+
+				<div class="ties">
+					<p id="ties">ties: 0</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<script src="js/rock_paper_scissors.js"></script>
+</body>
+</html>

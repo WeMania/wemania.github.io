@@ -1,0 +1,284 @@
+p {
+	font-family: Arial;
+}
+
+body {
+	background-color: #121212;
+}
+
+.fullscreen {
+	display: flex;
+}
+
+.side_bar {
+	display: grid;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	background-color: #121212;
+	width: 210px;
+	border-style: none;
+	border-right: 1px solid #292929;
+	grid-template-rows: 105px 1fr 100px;
+}
+
+/* main_icon */
+.icon_div {
+	display: grid;
+	grid-template-columns: 110px 100px;
+	place-items: center;
+}
+
+.squidward_img {
+	width: 80px;
+	border-radius: 50px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: white;
+	margin-left: 10px;
+}
+
+.main_text {
+	font-family: Arial;
+	font-size: 15px;
+	color: white;
+	margin-right: 20px;
+	text-decoration: none;
+}
+
+
+/*pages*/
+.pages_div {
+	color: white;
+	grid-template-rows: 50px 50px 1fr;
+}
+
+.library,
+.games {
+	display: grid;
+	margin-top: 25px;
+	grid-template-columns: 110px 100px;
+	place-items: center;	
+	-webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+.games {
+	margin-top: 40px;
+}
+
+.library:hover,
+.games:hover {
+	cursor: pointer;
+}
+
+.library_hover_text {
+	padding: 4px;
+    position: relative;
+    left: 75px;
+    background: #bebebe;
+    border-radius: 5px;
+    width: 90px;
+    height: 14px;
+    color: black;
+    display: none;
+}
+
+
+.library:hover .library_hover_text {
+	display: block;
+}
+
+.game_img {
+	width: 45px;
+	margin-left: 10px;
+}
+
+.library_text,
+.games_text {
+	margin-top: 15px;
+	font-family: Arial;
+	font-size: 15px;
+	color: #959595;
+	margin-right: 85px;
+}
+
+.games_text {
+	color: #ffffff;
+}
+
+
+/* account_info */
+.account_div {
+	color: white;
+}
+
+.up_bar {
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	left: 211px;
+	height: 80px;
+	background-color: #121212;
+	border-style: none;
+	border-bottom: 1px solid #292929;
+	display: grid;
+	grid-template-columns: 1fr 1fr 130px;
+}
+
+.up_bar_button_div {
+	display: grid;
+	grid-template-columns: 130px 130px 130px 130px;
+}
+
+#classic_button {
+	background-color: #292929;
+	border-bottom: 3px solid #dea309;
+}
+
+.exit {
+	margin-top: 15px;
+	margin-right: 20px;
+	display: grid;
+	font-family: Arial;
+	justify-content: center;
+	align-content: center;
+	font-size: 22px;
+	background-color: #dda209;
+	height: 50px;
+	border-radius: 5px;
+	border: 2px solid black;
+	-webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+.exit:hover {
+	cursor: pointer;
+}
+
+.up_bar_button {
+	margin-top: 27px;
+	display: grid;
+	justify-content: center;
+	height: 50px;
+	width: 130px;
+	background-color: #121212;
+	align-content: center;
+	border-bottom: none;
+}
+
+.up_bar_button:hover {
+	cursor: pointer;
+}
+
+/*.clasic_games {
+	background-color: #292929;
+	border-bottom: 3px solid #dea309;
+}*/
+
+.samples_text,
+.marketplace_text,
+.news_text,
+.clasic_text {
+	font-family: Arial;
+	font-size: 20px;
+	color: white;
+	-webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+	
+.content {
+	display: grid;
+	width: 100%;
+	height: 100%;
+	margin-top: 81px;
+	margin-left: 211px;
+	grid-template-columns: 270px 270px;
+	column-gap: 35px;
+	padding-top: 25px;
+	padding-left: 20px;
+}
+
+.tab {
+	height: 370px;
+	width: 260px;
+	background-color: #1f1f1f;
+	display: grid;
+	grid-template-rows: 170px 200px;
+	padding: 2px;
+}
+
+.tab_image_div {
+	background-color: blue;
+}
+
+.tab_image {
+	width: 100%;
+	height: 100%;
+}
+
+.tab_text_div {
+	font-family: Arial;
+	display: grid;
+	background-color: #1f1f1f;
+	grid-template-rows: 160px 40px;
+	font-size: 14px;
+	color: #5e828e;
+}
+
+.tab_text {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.tab_subtitles {
+	display: grid;
+	border-top: 1px solid #535353;
+	column-gap: 90px;
+	align-content: center;
+	justify-content: end;
+	padding-right: 10px;
+}
+
+.play_button {
+	width: 70px;
+	height: 20px;
+	display: grid;
+	align-content: center;
+	background-color: #dda209;
+	border: 1px solid gray;
+	transition: opacity 0.15s;
+	border-radius: 5px;
+}
+
+.play_button:hover {
+	cursor: pointer;
+	opacity: 80%;
+}
+
+
+.account_div {
+	display: grid;
+	justify-content: center;
+}
+
+.account_box {
+	display: flex;
+	width: 100%;
+	grid-template-columns: 1fr 1fr;
+	align-items: center;
+	color: white;
+	font-size: 14px;
+	justify-content: space-between;
+}
+
+.account_icon {
+	width: 40px;
+	border: 1px solid white;
+	border-radius: 20px;
+	margin-right: 5px;
+}

@@ -1,0 +1,141 @@
+p {
+	margin-top: 0px;
+	margin-bottom: 8px;
+	font-size: 17px;
+	font-family: Arial;
+}
+
+body, html {
+  height: 100%;
+}
+
+body {
+  background-image: url('index_pngs/background.jpg');
+  height: 100%;
+	background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.fullscreen {
+	display: flex;
+	justify-content: center;
+}
+
+.background {
+	position: absolute;
+	z-index: -1;
+}
+
+
+.login_box {
+	margin-top: 50px;
+	width: 350px;
+	height: 400px;
+	display: grid;
+	background-color: white;
+	justify-content: center;
+	grid-template-rows: 85px 70px 70px 45px 20px;
+	border-radius: 20px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.input_div {
+	height: 100px;
+}
+
+input {
+	width: 225px;
+	height: 25px;
+	border-radius: 4px;
+	border-style: none;
+	border-style: solid;
+	border-color: #c0c0c0;
+	border-width: 1px;
+	box-shadow: rgba(0, 0, 0, 0.1) 5px 5px 5px;
+}
+
+input:focus {
+	outline: none;
+}
+
+.input_box {
+	padding-left: 7px;
+}
+
+.login_text {
+	margin-top: 23px;
+	font-size: 23px;
+	color: #434343;
+}
+
+.login_button {
+	font-family: Arial;
+	margin-top: 5px;
+	width: 236px;
+	height: 33px;
+	border-radius: 5px;
+	border-style: solid;
+	border-color: gray;
+	border-width: 0.5px;
+	background-color: #ee5684;
+	box-shadow: rgba(0, 0, 0, 0.1) 5px 5px 5px;
+	color: white;
+	transition: opacity 0.15s;
+}
+
+.login_button:hover {
+	cursor: pointer;
+	opacity: 90%;
+}
+
+.or_div {
+	margin-left: 105px;
+	margin-top: 5px;
+	display: grid;
+	justify-content: center;
+	width: 33px;
+	height: 30px;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 16px;
+	border-color: #434343;
+}
+
+.or_text {
+	padding-top: 5px;
+	height: 30px;
+	font-size: 14px;
+	color: #434343;
+}
+
+.sign_up_div {
+	height: 15px;
+	display: grid;
+	justify-content: center;
+	font-family: Arial;
+	font-size: 15px;
+	padding-left: 11px;
+	padding-top: 5px;
+}
+
+.sign_up_text {
+	margin-top: 20px;
+	color: #383737;
+	text-decoration: underline;
+}
+
+.sign_up_text:hover {
+	cursor: pointer;
+}
+
+.pop_up {
+	color: red;
+	display: grid;
+	justify-content: center;
+	font-family: Arial;
+	padding-left: 11px;
+	font-size: 16px;
+}

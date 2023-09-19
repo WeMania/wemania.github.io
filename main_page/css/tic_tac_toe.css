@@ -1,0 +1,118 @@
+body {
+	background-color: #121212;
+}
+
+p {
+	margin: 0px;
+	font-family: Arial;
+	color: white;
+}
+
+button {
+	width: 150px;
+	height: 150px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #009aff;
+	font-size: 60px;
+	color: white;
+	background-color: #121212;
+	border-top: none;
+	border-left: none;
+	transition: 0.15s;
+}
+
+button:hover {
+	background-color: #374a5e;
+}
+
+.up_bar {
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+	height: 80px;
+	background-color: #121212;
+	border-style: none;
+	border-bottom: 1px solid #292929;
+	display: grid;
+	align-items: center;
+	grid-template-columns: 5fr 1fr 5fr;
+}
+
+.fullscreen {
+	display: grid;
+	margin-top: 82px;
+	justify-content: center;
+}
+
+.game_box {
+	width: 900px;
+	height: 600px;
+	display: grid;
+	justify-content: center;
+	grid-template-rows: 150px 210px 130px 1fr;
+}
+
+.game_text {
+	display: grid;
+	justify-content: center;
+}
+
+.reset_button {
+	display: grid;
+	justify-content: center;
+}
+
+.return_button {
+	display: grid;
+	justify-content: end;
+	padding-right: 30px;
+}
+
+.reset_button_image {
+	width: 50px;
+}
+
+.return_button_image {
+	width: 60px;
+}
+
+.return_button_image:hover,
+.reset_button_image:hover {
+	cursor: pointer;
+}
+
+.ttt_text {
+	font-size: 40px;
+	padding-top: 20px;
+}
+
+.winner_text {
+	font-size: 20px;
+	display: grid;
+	justify-content: center;
+	height: 60px;
+}
+
+.main_box {
+	display: grid;
+	width: 600px;
+	height: 600px;
+	justify-content: center;
+	grid-template-columns: 150px 150px 150px;
+	border-radius: 0px;
+	margin-top: 0px;
+}
+
+.button3,
+.button6,
+.button9 {
+	border-bottom: none;
+}
+
+.button7,
+.button8,
+.button9 {
+	border-right: none;
+}
