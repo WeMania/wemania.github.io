@@ -62,3 +62,4 @@ for (var i = 0; i <= buttons.length -1; i++) {
 locationHref('exit', '/index.html');
 locationHref('rps_play', 'rock_paper_scissors.html');
 locationHref('ttt_play', 'tic_tac_toe.html');
+locationHref('calc_play', 'calculator.html');

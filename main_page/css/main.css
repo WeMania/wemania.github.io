@@ -197,7 +197,7 @@ body {
 	height: 100%;
 	margin-top: 81px;
 	margin-left: 211px;
-	grid-template-columns: 270px 270px;
+	grid-template-columns: 270px 270px 270px;
 	column-gap: 35px;
 	padding-top: 25px;
 	padding-left: 20px;
